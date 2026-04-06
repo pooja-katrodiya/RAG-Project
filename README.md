@@ -3,12 +3,13 @@
 This is a personal project I built to help me quickly get answers from research papers in PDF format. I wanted a tool that could read a PDF, understand its content, and answer questions without me having to go through the entire paper manually.
 
 What I Did and Why:
+
 **PDF Text Extraction**
 Made the system extract text from any uploaded PDF so it could read and understand the content.
 This allows the project to work with research papers in a usable format.
 
 **Text Chunking**
-**Split the extracted text into smaller, overlapping sections called chunks.
+Split the extracted text into smaller, overlapping sections called chunks.
 This ensures each part is small enough to retrieve relevant information efficiently.
 
 **Text Embedding**
