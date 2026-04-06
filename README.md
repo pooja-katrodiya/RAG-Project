@@ -10,26 +10,32 @@ Made the system extract text from any uploaded PDF so it could read and understa
 This allows the project to work with research papers in a usable format.
 
 **Text Chunking**
+
 Split the extracted text into smaller, overlapping sections called chunks.
 This ensures each part is small enough to retrieve relevant information efficiently.
 
 **Text Embedding**
+
 Converted each chunk into a numerical representation (embedding) that captures its meaning.
 This makes it possible to find answers based on the meaning of the text, not just keywords.
 
 **Storing Data in ChromaDB**
+
 Stored all embeddings and metadata in a local database called ChromaDB.
 This made searching for relevant parts of the PDF fast and easy.
 
 **Retrieving Relevant Chunks**
+
 When I asked a question, the system could find the most relevant sections from the PDF.
 This helps the answer be accurate and based on the content of the paper.
 
 **Generating Answers Using a Local Language Model**
+
 Used a local language model (llama3.2) to generate answers from the retrieved chunks.
 If the answer wasn’t in the paper, the system would let me know instead of guessing.
 
 **Interactive Web Interface**
+
 Created a simple Streamlit interface to upload PDFs and ask questions easily.
 This made the project easy to use, even for someone without programming knowledge.
 
