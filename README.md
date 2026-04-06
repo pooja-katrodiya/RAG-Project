@@ -5,6 +5,8 @@ This is a personal project I built to help me quickly get answers from research 
 What I Did and Why:
 
 **PDF Text Extraction**
+
+
 Made the system extract text from any uploaded PDF so it could read and understand the content.
 This allows the project to work with research papers in a usable format.
 
